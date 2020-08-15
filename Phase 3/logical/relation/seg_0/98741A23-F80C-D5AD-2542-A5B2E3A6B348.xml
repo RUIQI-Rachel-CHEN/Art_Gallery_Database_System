@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CUSTOMER-SALE" directorySegmentName="seg_0" id="98741A23-F80C-D5AD-2542-A5B2E3A6B348">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<sourcePk>2D23D8C5-48CF-B5E3-2BB2-5B7CC44390EE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>926AF4ED-5BE0-41AC-B361-22B709281154</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A23D33CA-B4B2-B818-5BEF-A13A868D0DDA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

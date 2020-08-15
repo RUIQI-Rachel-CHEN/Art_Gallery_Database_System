@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40815B91-24A8-BE85-A975-510A86B71159" name="CUSTOMER-SALE">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:43:07 UTC</createdTime>
+<generatorID>926AF4ED-5BE0-41AC-B361-22B709281154</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<ordsAlias>customersale</ordsAlias>
+<splittedTableID>018CF760-0151-D700-FF0D-8292C15A31FF</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_ID" id="689C2DF1-ED68-DB42-F877-AF7531611FBB">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:43:07 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="261AF026-3846-72F0-6799-463F6BC57F09" referredColumn="5C7CCD84-F4F2-E0C4-E3B3-4CA6817C6822"/>
+</associations>
+</Column>
+<Column name="Sale_NO" id="F7AF8739-AD97-ABB3-C44E-100C54D5863F">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:43:18 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84EF38B4-1DC9-D92D-D90E-9BE5095D7A04" referredColumn="5CB85902-2C4B-0914-81ED-44C5483C057F"/>
+</associations>
+</Column>
+<Column name="Customer_Purchases_Last_Year_D" id="91F7D042-54AC-9BA4-A73D-489EE57A8CF1">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-03 20:03:32 UTC</createdTime>
+<generatorID>11B1705E-3974-0234-E6C6-45DB8C6F88B4</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Purchases_YTD_D" id="DF1BDFD6-54DE-C5FB-B9A8-795F097AC44F">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-03 20:03:32 UTC</createdTime>
+<generatorID>A42F4D36-7963-73F8-2EE1-A61E6DADE073</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44FF2FCC-6F42-2AA8-9154-A76D5B6A6030" name="CUSTOMER-SALE_PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:43:07 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689C2DF1-ED68-DB42-F877-AF7531611FBB"/>
+<colUsage columnID="F7AF8739-AD97-ABB3-C44E-100C54D5863F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDE4033B-2B55-C39E-842C-9A7765BB2FD6" name="SALE_1_PKv2">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:43:18 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7AF8739-AD97-ABB3-C44E-100C54D5863F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACED06EA-4B79-2895-674A-98A961E8BBEC" name="CUSTOMER-SALE_CUSTOMER_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:43:07 UTC</createdTime>
+<generatorID>2D23D8C5-48CF-B5E3-2BB2-5B7CC44390EE</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689C2DF1-ED68-DB42-F877-AF7531611FBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5ECEF4B9-5449-0DCE-85C8-CBF91F6BDA63" name="SALE_1_SALE_FKv3">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:43:24 UTC</createdTime>
+<generatorID>C8D1D613-25C7-C0FF-BC87-DD1344DD18E6</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7AF8739-AD97-ABB3-C44E-100C54D5863F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

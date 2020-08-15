@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A082224B-BC6F-D7FF-2F3B-BBC17ED2699D" name="salesperson">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>2FDE4550-D0E0-61B8-FC1C-47DFC613BFB8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="salesperson_no" id="1EBB17ED-1EC5-3E5B-D728-6E1CF7E0FCDE">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>D3018F6E-6DE0-2186-647F-FEBBFFF6C079</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E39D6ADC-C8FE-F478-6F1D-67C358CBAC77</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salesperson_city" id="8BA522D6-690B-14CB-9194-30B59E53EE96">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>921C8CEB-328B-37C8-4900-B17B9D1A12E3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C6D35199-7170-3F61-AA1C-48A27DDDBA84</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salesperson_first_name" id="5885A401-B99D-94F4-D9AE-E75702CFEBAF">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>779E6D47-1542-649B-70D9-3165B7A9BFAF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>89CC83C6-7493-352C-F1BA-5E58BACA26B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salesperson_last_name" id="758E90FA-4A3F-5558-1B12-1DF8540BE760">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>71FDAC26-5CAD-3CDD-925E-04653114B244</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>89CC83C6-7493-352C-F1BA-5E58BACA26B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salesperson_phone_number" id="B89C45CE-73B6-00AA-6A4D-D39900868D87">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>7F185C1E-AB7B-81AD-056E-0622D5A6E315</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>69924235-3C7F-E690-1FD3-CFE923AC4825</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salesperson_state" id="BBF2F533-1A53-250D-FB6A-C53F84FA2722">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>F59D10CF-69F1-1DAC-91D6-6948EF36F65B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>8402A4FE-16E7-D333-9439-EC5E033D2DD4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salesperson_street" id="2F55C72D-1106-2F0A-B2B7-56533C4D7710">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>28EB3223-EB78-C021-888F-39322FCF40A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>2D89E446-1618-B934-C585-9A484B403AD1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salesperson_zip" id="90834B3B-2DF1-AE3E-4306-DD68BA2A2F7A">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>1C8FA1B3-2C2E-AC7B-2EAF-B7C864A522BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>34833286-BAB4-31FF-F136-060967347225</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CD0744D-439C-FDCF-AF25-44CA57AA34D9" name="salesperson_pk">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>E3AF120F-976A-21A2-763D-A7254CBBB21D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EBB17ED-1EC5-3E5B-D728-6E1CF7E0FCDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

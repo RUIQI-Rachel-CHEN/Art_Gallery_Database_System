@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COLLECTOR-SALE" directorySegmentName="seg_0" id="3C100AE6-7179-4864-61C3-8BE71FEE346E">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-02 23:52:13 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<sourcePk>3ADAF776-6990-7CA8-EA3B-7EABBB745AEC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F6C3C2B-56DD-D306-70E6-F4474A552D3F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A23D33CA-B4B2-B818-5BEF-A13A868D0DDA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

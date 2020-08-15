@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Phase 3" id="E9E45DF1-615D-EFAE-1A0F-9283D114EDAF" version="3.5">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:00 UTC</createdTime>
+<ownerDesignName>Phase 2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E9E45DF1-615D-EFAE-1A0F-9283D114EDAF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3FD84DA0-FF1F-C24D-1FFD-AC76B9575B3E">
+<designStoragePath>C:\Phase 3 DDL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E5FB2FA3-74CC-8963-0180-D49BB8D696B6">
+<designStoragePath>C:\Phase 3 DDL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

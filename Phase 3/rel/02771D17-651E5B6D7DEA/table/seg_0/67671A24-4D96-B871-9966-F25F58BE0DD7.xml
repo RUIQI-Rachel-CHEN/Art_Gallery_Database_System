@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67671A24-4D96-B871-9966-F25F58BE0DD7" name="CUSTOMER-ARTIST">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_Customer_ID" id="6A5E6A65-156D-A6E0-FDF2-ABE0FBBA988F">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="912D882A-E290-7F8E-9D7B-3BA4EE0D8C25" referredColumn="5C7CCD84-F4F2-E0C4-E3B3-4CA6817C6822"/>
+</associations>
+</Column>
+<Column name="ARTIST_Artist_ID" id="E31BFECB-1B66-2F31-13D1-CC79F66831D7">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DBEA1CB-63D3-C51D-AE0F-DEA425CCF020" referredColumn="C5D9A62D-DBF4-A0DA-D0F6-313F78C04364"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BB7F770-D559-3ACD-5C74-E0BBF85BD0A5" name="CUSTOMER-ARTIST_PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5E6A65-156D-A6E0-FDF2-ABE0FBBA988F"/>
+<colUsage columnID="E31BFECB-1B66-2F31-13D1-CC79F66831D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="417BADA1-5AAD-D226-D084-9FEC8FC4617B" name="CUSTOMER-ARTIST_CUSTOMER_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<generatorID>7496BA89-658C-BC45-F995-9D4602FF2E6D</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5E6A65-156D-A6E0-FDF2-ABE0FBBA988F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B8FE46C-8036-ECFB-5EEA-D02AE377A49F" name="CUSTOMER-ARTIST_ARTIST_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<generatorID>7496BA89-658C-BC45-F995-9D4602FF2E6D</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E31BFECB-1B66-2F31-13D1-CC79F66831D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

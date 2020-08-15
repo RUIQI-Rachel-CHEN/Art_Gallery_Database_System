@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="artwork" directorySegmentName="seg_0" id="5DAF63F1-14DB-6730-479D-F5E5D32655BE">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="artwork_status" id="102F6EA6-0DEF-5443-42C3-45DDF76FCF89">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_year_completed" id="2AA874AA-C2FF-4767-2A04-D23292F86560">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_type" id="41C5E914-926F-BA8D-A34B-D2F2112E95B4">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_title" id="66C101CA-C507-7BEA-A814-DE2894F503EF">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:16:31 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_size" id="6D18D18C-B459-9037-2727-D07F8AD227E1">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sale_sale_no" id="8169850D-1380-401A-55E4-591D96C2664E">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_medium" id="8799D741-2EA3-2DA6-4BFE-16819BFD1657">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_date_listed" id="9196192B-8D78-6835-374D-5387F105D957">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_asking_price" id="92DC1999-2589-619F-D839-C533F3F8C43D">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_style" id="9542ABA8-35DB-BA68-B31E-45C6C7172B53">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_no" id="A160B205-4BB3-9800-9556-DE6EF78F1295">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="artwork_date_return" id="B2DBCAD4-88A3-F2FA-2C24-A4F50B677351">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="artwork_sale_fk" id="6DFF3E8A-1773-2781-173C-DD54F745A6B6">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="artwork_pk" id="5916B943-53B6-B68A-D23C-DB88903BEF71">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="180EAE32-C071-1371-037D-4FB275254706" name="CUSTOMER-SALE">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>6B3D39CD-9D29-C799-28E7-1A8DD50BBC18</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="433CC9D4-F978-D032-BF86-2CE5A88EF50C">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>D9E7D8AC-055D-F9BC-595F-8C868161CBC8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E39D6ADC-C8FE-F478-6F1D-67C358CBAC77</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07EC6FE5-9F57-3B1F-A2BB-A7CEF7582B1F" referredColumn="2021F87D-0E66-27FE-B6EA-D3BE7E1E138D"/>
+</associations>
+</Column>
+<Column name="sale_no" id="1B3BBAA0-0167-C39E-D844-377225EF5956">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>0DC46388-CF99-208C-6F24-DDB5EBA50A78</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E39D6ADC-C8FE-F478-6F1D-67C358CBAC77</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38E84926-C079-1311-D433-9847A9595158" referredColumn="CFCCCCEF-4402-EC46-632B-B9663435D6FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="697D4F40-F973-B2E4-BED1-0F108CE8DBDD" name="CUSTOMER-SALE_PK">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>0D203775-C6F3-A119-BC3A-C76347E8C5C1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="433CC9D4-F978-D032-BF86-2CE5A88EF50C"/>
+<colUsage columnID="1B3BBAA0-0167-C39E-D844-377225EF5956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD330A5E-F8AC-72DB-9538-444359E7A44D" name="sale_1_pkv2">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>FD377E55-28CA-B6B8-FECA-F1991E4DBADC</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3BBAA0-0167-C39E-D844-377225EF5956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="190B9F61-D3D9-1602-D9DB-4C83616E108B" name="CUSTOMER-SALE_CUSTOMER_FK">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="433CC9D4-F978-D032-BF86-2CE5A88EF50C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10A844F2-6F1A-FC25-C8B7-58233AC3025B" name="sale_1_sale_fkv3">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3BBAA0-0167-C39E-D844-377225EF5956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

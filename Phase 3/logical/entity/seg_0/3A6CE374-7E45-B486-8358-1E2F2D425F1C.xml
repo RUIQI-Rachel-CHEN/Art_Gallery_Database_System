@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A6CE374-7E45-B486-8358-1E2F2D425F1C" name="ARTSHOW">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Show NO" id="7BC92AD9-E238-6C7E-CC1F-5D5855491E45">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>7D2533E7-E7DE-AF1C-67A4-433F3A0BB7E1</importedID>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Show Closing Date" id="28015833-40F1-51BE-41FF-FA2A67199C87">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>BC9C3D86-C731-AE3A-C800-0861E064A6AD</importedID>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Show Featured Artist" id="28EBDBC9-3C96-8FD3-B9B6-90C76896B914">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>F027C35F-53D2-B590-8666-D40BC08120BF</importedID>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Show Opening Date" id="C99C1563-18CC-2C72-49E6-14FA99474881">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>3E9DFC6C-E2B9-CC55-0D1C-E5C70C4CADB2</importedID>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Show Theme" id="0AA20DC2-02E4-DF81-A808-D94C4703812B">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>2105E395-43FF-F0AD-12F2-3707F35E2814</importedID>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Show Title" id="1CF5F92D-13B0-1F99-3DFF-AE66E404A211">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>6B9EA0D5-623E-7F54-1328-86F4E326D0BD</importedID>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE14376A-8166-78D4-9C99-CE47233B1362" name="ARTSHOW PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BC92AD9-E238-6C7E-CC1F-5D5855491E45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

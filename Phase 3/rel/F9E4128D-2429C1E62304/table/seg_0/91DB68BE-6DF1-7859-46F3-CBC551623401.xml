@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91DB68BE-6DF1-7859-46F3-CBC551623401" name="SALE-SALESPERSON">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>EEF85D60-3C0E-F2AA-5B79-D94756DC55B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sale_no" id="53F32DAC-1D5B-2F03-834E-519AF2A96087">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>798156EC-E70B-8A61-4B85-BF27C3034607</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E39D6ADC-C8FE-F478-6F1D-67C358CBAC77</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F07657FE-9AC9-3F17-6711-7BA32C5F03D5" referredColumn="CFCCCCEF-4402-EC46-632B-B9663435D6FB"/>
+</associations>
+</Column>
+<Column name="salesperson_no" id="D166CFD8-7E62-BC95-52D9-23656A1EBB88">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>E8F0AD36-343F-6623-C226-A3A896E4D60E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E39D6ADC-C8FE-F478-6F1D-67C358CBAC77</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD0CEA9-8562-F391-1E46-7287C4866A8B" referredColumn="1EBB17ED-1EC5-3E5B-D728-6E1CF7E0FCDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F504778D-2A75-93F8-60EC-2D6D45E09B64" name="salesperson_1_pk">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>CF1A3B74-8716-BBCA-578A-F482F0B3BDC2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D166CFD8-7E62-BC95-52D9-23656A1EBB88"/>
+<colUsage columnID="53F32DAC-1D5B-2F03-834E-519AF2A96087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="722C95C2-A995-4B42-C056-3319AF5CAB05" name="SALE-SALESPERSON_PK">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>8605E4D7-AF66-C5D9-4BF2-83A357B13EA4</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53F32DAC-1D5B-2F03-834E-519AF2A96087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B684096-CA9F-A465-5BAB-E9BBF84ADD46" name="SALE-SALESPERSON_SALE_FKv1">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53F32DAC-1D5B-2F03-834E-519AF2A96087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75C0BB82-74D6-BFF5-782A-9627E949EA78" name="salesperson_1_salesperson_fk">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D166CFD8-7E62-BC95-52D9-23656A1EBB88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

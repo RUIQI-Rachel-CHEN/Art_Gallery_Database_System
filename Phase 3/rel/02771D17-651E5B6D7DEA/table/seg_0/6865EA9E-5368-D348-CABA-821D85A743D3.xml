@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6865EA9E-5368-D348-CABA-821D85A743D3" name="ARTWORK-ARTSHOW">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<ordsAlias>artworkartshow</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARTWORK_Artwork_NO" id="25893F58-3A5A-AD11-CBDE-B3399C880B80">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B3744C3-BD0F-10E4-27F0-5D42A466E9BA" referredColumn="792590A5-0024-5A6B-A814-24E7816B8570"/>
+</associations>
+</Column>
+<Column name="ARTSHOW_Show_NO" id="1EC001B4-CB62-F101-652D-389A95F42371">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60495600-6447-1790-BD53-68C9D74D4A6B" referredColumn="F458A545-67FF-C354-E3D3-9E9E757C8978"/>
+</associations>
+</Column>
+<Column name="Artwork_Date_Shown_D" id="67FD829E-AB6B-B8FD-8D4C-2D75A0FFA668">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-03 20:03:32 UTC</createdTime>
+<generatorID>0B1F891B-CEA5-8EAB-3558-46C0BEA91BA6</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3700787-A9F7-AE84-83E8-218291A897E6" name="ARTWORK-ARTSHOW_PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25893F58-3A5A-AD11-CBDE-B3399C880B80"/>
+<colUsage columnID="1EC001B4-CB62-F101-652D-389A95F42371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1925E51C-99CB-6AA4-C8BD-75416DBB8AF6" name="ARTWORK_1_PKv1">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:34:14 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="22F88CD7-36FF-17ED-0DB4-C774CA7C76B9" name="ARTWORK-ARTSHOW_ARTWORK_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<generatorID>539507B2-A2E0-454E-E0CB-80FC7C8D1FEA</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25893F58-3A5A-AD11-CBDE-B3399C880B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBA60BF9-4FCC-B727-DD03-8E205BB2436F" name="ARTWORK-ARTSHOW_ARTSHOW_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<generatorID>539507B2-A2E0-454E-E0CB-80FC7C8D1FEA</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EC001B4-CB62-F101-652D-389A95F42371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

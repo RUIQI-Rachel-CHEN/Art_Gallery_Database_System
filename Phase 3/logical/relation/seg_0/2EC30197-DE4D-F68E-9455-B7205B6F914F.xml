@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COLLECTOR-ARTIST" directorySegmentName="seg_0" id="2EC30197-DE4D-F68E-9455-B7205B6F914F">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0F6C3C2B-56DD-D306-70E6-F4474A552D3F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>471AFF5D-E6F7-6271-3864-1D1B2E9D4596</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

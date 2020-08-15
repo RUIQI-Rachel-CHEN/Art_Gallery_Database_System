@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="customer" directorySegmentName="seg_0" id="1CB80D82-D5EC-4262-EDF0-80A203E5F4F1">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="customer_first_name" id="0A3E13C8-3C1A-F3F5-DC73-32A324A9E3CC">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_id" id="2021F87D-0E66-27FE-B6EA-D3BE7E1E138D">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Sign-up_Date" id="47EBF22F-79FE-0CA9-F8D8-4847E093AA18">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="customer_state" id="580D2B61-68EC-33F5-5EDF-E813DA4FEB29">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_last_name" id="70CFBE52-E418-3034-14AF-D77F61F0E35E">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_city" id="C9B85AA5-532D-5FD8-620E-0EAFF4119014">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_street" id="CD1A1D0B-7178-9A7D-A6AC-ADBE1ECAEF16">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_zip" id="E4B8EEC9-B412-6D57-B40A-748ECA3F3119">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_phone_number" id="F0CBCF9A-E9D9-3A35-E412-57C511995BB8">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_type" id="FEB11018-4F5A-CA7B-6045-BBD53D913333">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="customer_pk" id="9A1ACEE9-9619-3883-9488-C0EB3674A4B2">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

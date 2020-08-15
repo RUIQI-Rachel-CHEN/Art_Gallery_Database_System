@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38E84926-C079-1311-D433-9847A9595158" containerWithKeyObject="180EAE32-C071-1371-037D-4FB275254706" localFKIndex="10A844F2-6F1A-FC25-C8B7-58233AC3025B" name="sale_1_sale_fkv3">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>8BDCFC8E-A255-97F3-AACF-210B93FEEF1C</importedID>
+<referredTableLongName>sale</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A5D91E2-2E77-E434-8732-7BCF4C5D7A55</referredTableID>
+<keyObject>65E57FDE-CBEF-E643-3EB5-38AFB115024B</keyObject>
+<referredKeyID>65E57FDE-CBEF-E643-3EB5-38AFB115024B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sale_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

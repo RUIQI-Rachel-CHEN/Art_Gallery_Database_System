@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BC1ED52-C449-19F4-ED41-05343E30C807" containerWithKeyObject="685F8D99-5A33-3F11-2751-1D308EA3A5D2" localFKIndex="D06D5C33-2969-3AFB-FB38-A4AFECDD7260" name="CUSTOMER-ARTIST_ARTIST_FK">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>9909218D-F63D-B973-673A-FA9DED85D116</importedID>
+<referredTableLongName>artist</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2CA311D-9D67-E8DC-9D51-32B3FBB93F75</referredTableID>
+<keyObject>8E910F28-244F-CFF0-B2D4-E42D33DBBC31</keyObject>
+<referredKeyID>8E910F28-244F-CFF0-B2D4-E42D33DBBC31</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>artist_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

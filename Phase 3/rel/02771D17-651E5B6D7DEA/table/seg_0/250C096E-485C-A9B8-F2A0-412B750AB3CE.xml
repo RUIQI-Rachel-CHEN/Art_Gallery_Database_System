@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="250C096E-485C-A9B8-F2A0-412B750AB3CE" name="ARTIST-ARTWORK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:31:52 UTC</createdTime>
+<generatorID>471AFF5D-E6F7-6271-3864-1D1B2E9D4596</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<ordsAlias>artistartwork</ordsAlias>
+<splittedTableID>B91B1CC9-5BF9-6A6D-6E77-5F7057008D68</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Artist_ID" id="E6AA8768-9E60-8F25-3F45-A3B1F8524F3D">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:31:52 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30EB0A2C-1002-141A-829A-3015036F13C6" referredColumn="C5D9A62D-DBF4-A0DA-D0F6-313F78C04364"/>
+</associations>
+</Column>
+<Column name="Artwork_NO" id="64640A29-2AF6-59B3-F742-9C4F613320AC">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:32:18 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D745A777-9B93-A348-B207-19A350CFA8EA" referredColumn="792590A5-0024-5A6B-A814-24E7816B8570"/>
+</associations>
+</Column>
+<Column name="Artist_Total_Asking_Price_D" id="DB91B5FF-9890-BAC0-84F3-AD07EE2738E2">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-03 20:03:32 UTC</createdTime>
+<generatorID>92569688-E92C-B956-BEDB-8CD2628CD4B7</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="595884CC-DA23-CF3B-D2ED-BD2647F9DA7B" name="ARTIST-ARTWORK_PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:31:52 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6AA8768-9E60-8F25-3F45-A3B1F8524F3D"/>
+<colUsage columnID="64640A29-2AF6-59B3-F742-9C4F613320AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEF27DAF-5C78-BA6B-7A70-1963973FF096" name="ARTWORK_1_PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:32:18 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64640A29-2AF6-59B3-F742-9C4F613320AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F076B77-ECB8-D34C-7A9F-749EA29D6AF5" name="ARTIST-ARTWORK_ARTIST_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:31:52 UTC</createdTime>
+<generatorID>7BA8C136-2D40-EE6C-0427-BA24ABFF41C6</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6AA8768-9E60-8F25-3F45-A3B1F8524F3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="243A5939-AC13-176D-6EB1-EC60DD4DB84D" name="ARTWORK_1_ARTWORK_FKv1">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:32:33 UTC</createdTime>
+<generatorID>A29B3E27-22E3-F2D1-FDB4-0CB98F0254DE</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64640A29-2AF6-59B3-F742-9C4F613320AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

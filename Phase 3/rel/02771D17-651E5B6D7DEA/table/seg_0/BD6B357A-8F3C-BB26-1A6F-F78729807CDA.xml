@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD6B357A-8F3C-BB26-1A6F-F78729807CDA" name="SALE-SALESPERSON">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:47:41 UTC</createdTime>
+<generatorID>216C74FA-26D0-EEFD-B755-B4FA6F7C01D6</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<ordsAlias>salesperson_1</ordsAlias>
+<splittedTableID>CB71DAC3-0BFA-2E30-FE8B-A6AC260E19B8</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Salesperson_NO" id="D7234105-AA45-0E48-180D-D860269C8BF7">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:47:41 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEC47176-40DE-7853-E0DA-2FE1D6195928" referredColumn="F3FD5F13-D27E-5B6B-EEE6-801EF7884644"/>
+</associations>
+</Column>
+<Column name="Sale_NO" id="A00AEDCB-8A24-4EC3-8C6D-82926B74B431">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:47:28 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FF21ADD-9472-3674-414E-9052DD253BA9" referredColumn="5CB85902-2C4B-0914-81ED-44C5483C057F"/>
+</associations>
+</Column>
+<Column name="Salesperson_Commission_D" id="0071F7B2-C932-A0DC-197A-E324AFF75CF7">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-03 20:03:32 UTC</createdTime>
+<generatorID>079FE0DE-8D2D-F23D-EC27-5F94C383DB56</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salesperson_Total_Sales_D" id="91E5D85D-DAC4-581F-9C7B-B06C0B78283F">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-03 20:03:32 UTC</createdTime>
+<generatorID>070E3857-A59C-9120-C560-F1E99C6D0160</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_Commision_D" id="06E073A0-F2F7-489A-57AE-01E7CA20809E">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:46:42 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB820E60-7C04-2892-E62A-F80CE55B063C" name="SALESPERSON_1_PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:47:41 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7234105-AA45-0E48-180D-D860269C8BF7"/>
+<colUsage columnID="A00AEDCB-8A24-4EC3-8C6D-82926B74B431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF48D8E8-5C72-A220-0A1D-5040ADA47E67" name="SALE-SALESPERSON_PK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:47:28 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A00AEDCB-8A24-4EC3-8C6D-82926B74B431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0ECFA9B-1B93-F622-C555-E84297914372" name="SALESPERSON_1_SALESPERSON_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:47:41 UTC</createdTime>
+<generatorID>B310627A-6A5E-B54A-A679-B88B4DE4FA27</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7234105-AA45-0E48-180D-D860269C8BF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D28CD72-FB0D-1A8B-C803-2D1C2E16D188" name="SALE-SALESPERSON_SALE_FKv1">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-12-04 04:47:47 UTC</createdTime>
+<generatorID>C8D1D613-25C7-C0FF-BC87-DD1344DD18E6</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A00AEDCB-8A24-4EC3-8C6D-82926B74B431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

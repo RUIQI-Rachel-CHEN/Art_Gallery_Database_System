@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SALE-ARTWORK" directorySegmentName="seg_0" id="8674F2F9-4E5F-1A8B-7287-3D93DF339BBC">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 03:57:30 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<engineerTo>
+<item key="02771D17-577F-8727-EF1D-651E5B6D7DEA" value="true"/>
+<item key="F9E4128D-629A-CC5E-BB23-2429C1E62304" value="true"/>
+</engineerTo>
+<sourcePk>C8D1D613-25C7-C0FF-BC87-DD1344DD18E6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A23D33CA-B4B2-B818-5BEF-A13A868D0DDA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>77CA53C8-823B-AC39-FB90-321FD7BD5A56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

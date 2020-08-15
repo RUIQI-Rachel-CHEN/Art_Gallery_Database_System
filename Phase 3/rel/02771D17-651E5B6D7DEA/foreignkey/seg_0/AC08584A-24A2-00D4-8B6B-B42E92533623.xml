@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC08584A-24A2-00D4-8B6B-B42E92533623" containerWithKeyObject="FF2488FD-C7CE-39AD-73F8-717D31A4C178" localFKIndex="B96148E0-054D-2AEE-C0CC-0B64938CB485" name="COLLECTOR-ARTIST_COLLECTOR_FK">
+<createdBy>Jie Lu</createdBy>
+<createdTime>2019-11-15 04:46:19 UTC</createdTime>
+<generatorID>2EC30197-DE4D-F68E-9455-B7205B6F914F</generatorID>
+<ownerDesignName>Phase 3</ownerDesignName>
+<referredTableLongName>COLLECTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85CAFC54-CBBE-1116-9F12-1AE8109E53CB</referredTableID>
+<keyObject>01B895AD-8134-BE22-3E8C-AB6F1DBC44C2</keyObject>
+<referredKeyID>01B895AD-8134-BE22-3E8C-AB6F1DBC44C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Collector_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

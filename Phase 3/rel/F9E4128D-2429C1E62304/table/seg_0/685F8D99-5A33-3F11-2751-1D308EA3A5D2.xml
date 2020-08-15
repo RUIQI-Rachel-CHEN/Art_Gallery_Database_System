@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="685F8D99-5A33-3F11-2751-1D308EA3A5D2" name="CUSTOMER-ARTIST">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>A8FDA775-98C7-537F-6AD8-B9179F7DD085</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_customer_id" id="C33404B0-0AFD-8641-F281-18DB480C93FF">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>4D0884AB-AC65-FFDD-9488-23ED538CD629</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E39D6ADC-C8FE-F478-6F1D-67C358CBAC77</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D10083A-A337-613D-40A7-EBBE49321247" referredColumn="2021F87D-0E66-27FE-B6EA-D3BE7E1E138D"/>
+</associations>
+</Column>
+<Column name="artist_artist_id" id="E8986E71-57A5-3AFA-214C-FC317BF9DBB8">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>107AB2F8-6097-4E94-2B04-74E538193765</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E39D6ADC-C8FE-F478-6F1D-67C358CBAC77</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BC1ED52-C449-19F4-ED41-05343E30C807" referredColumn="F8B47FA4-22EE-E371-BC74-9B516E8DFD2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82EA2A07-2AE4-C8A5-312A-75DD773D890D" name="CUSTOMER-ARTIST_PK">
+<sourceDDLFile>Phase 3 DDL.ddl</sourceDDLFile>
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<importedID>4AECF21F-009A-28E0-B5B6-B4048D106192</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C33404B0-0AFD-8641-F281-18DB480C93FF"/>
+<colUsage columnID="E8986E71-57A5-3AFA-214C-FC317BF9DBB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D06D5C33-2969-3AFB-FB38-A4AFECDD7260" name="CUSTOMER-ARTIST_ARTIST_FK">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8986E71-57A5-3AFA-214C-FC317BF9DBB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="756BC16B-9CB2-B252-C4F3-61493ADBF7BE" name="CUSTOMER-ARTIST_CUSTOMER_FK">
+<createdBy>Shiran Guo</createdBy>
+<createdTime>2019-12-04 17:01:56 UTC</createdTime>
+<ownerDesignName>Phase 3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C33404B0-0AFD-8641-F281-18DB480C93FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
